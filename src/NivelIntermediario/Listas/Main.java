@@ -6,14 +6,14 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        // Arrays
+        // Arrays ---------------------------------------------------------
         // são estáticos, não mudam de tamanho
         String[] ninjasArray = new String[4];
         ninjasArray[0] = "Naruto";
         ninjasArray[1] = "Sasuke";
         ninjasArray[2] = "Sakura";
 
-        // Listas
+        // Listas ---------------------------------------------------------
         // são dinâmicas, podem mudar de tamanho
         List<String> ninjasList = new ArrayList<>();
 
